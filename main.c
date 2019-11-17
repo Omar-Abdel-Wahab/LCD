@@ -1,4 +1,5 @@
 #include "lcd_init.h"
+#include "timer.h"
 #include "tm4c123gh6pm.h"
 
 void lcd_test()

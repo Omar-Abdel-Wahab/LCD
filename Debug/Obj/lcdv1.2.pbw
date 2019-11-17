@@ -92616,7 +92616,7 @@
     "display": "void init_pf(void)",
     "location": {
       "column": "6",
-      "line": "4",
+      "line": "5",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.c"
     },
     "name": "init_pf",
@@ -92630,80 +92630,10 @@
     "display": "void init_pb(void)",
     "location": {
       "column": "6",
-      "line": "23",
+      "line": "24",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.c"
     },
     "name": "init_pb",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@init_timer",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void init_timer(void)",
-    "location": {
-      "column": "6",
-      "line": "32",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.c"
-    },
-    "name": "init_timer",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@default_delay",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void default_delay(void)",
-    "location": {
-      "column": "6",
-      "line": "39",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.c"
-    },
-    "name": "default_delay",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delayMs",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void delayMs(int)",
-    "location": {
-      "column": "6",
-      "line": "45",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.c"
-    },
-    "name": "delayMs",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delayUs",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void delayUs(int)",
-    "location": {
-      "column": "6",
-      "line": "50",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.c"
-    },
-    "name": "delayUs",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delay",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void delay(void)",
-    "location": {
-      "column": "6",
-      "line": "57",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.c"
-    },
-    "name": "delay",
     "origin": "project_file",
     "scope": null
   },
@@ -92714,7 +92644,7 @@
     "display": "void LCD_command(unsigned char)",
     "location": {
       "column": "6",
-      "line": "65",
+      "line": "34",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.c"
     },
     "name": "LCD_command",
@@ -92728,7 +92658,7 @@
     "display": "void LCD_data(unsigned char)",
     "location": {
       "column": "6",
-      "line": "78",
+      "line": "47",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.c"
     },
     "name": "LCD_data",
@@ -92742,7 +92672,7 @@
     "display": "void LCD_start(void)",
     "location": {
       "column": "6",
-      "line": "88",
+      "line": "57",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.c"
     },
     "name": "LCD_start",
@@ -92834,69 +92764,13 @@
     "scope": null
   },
   {
-    "ID": "c:@F@delayMs",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delayMs(int)",
-    "location": {
-      "column": "6",
-      "line": "11",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
-    },
-    "name": "delayMs",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delayMs",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delayMs(int)",
-    "location": {
-      "column": "6",
-      "line": "11",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
-    },
-    "name": "delayMs",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delayUs",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delayUs(int)",
-    "location": {
-      "column": "6",
-      "line": "12",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
-    },
-    "name": "delayUs",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delayUs",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delayUs(int)",
-    "location": {
-      "column": "6",
-      "line": "12",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
-    },
-    "name": "delayUs",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:@F@init_pf",
     "What": "Function",
     "defdec": "Dec",
     "display": "void init_pf(void)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "11",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
     },
     "name": "init_pf",
@@ -92910,7 +92784,7 @@
     "display": "void init_pf(void)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "11",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
     },
     "name": "init_pf",
@@ -92918,141 +92792,43 @@
     "scope": null
   },
   {
-    "ID": "c:@F@init_pd",
+    "ID": "c:@F@init_pb",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void init_pd(void)",
+    "display": "void init_pb(void)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
+    },
+    "name": "init_pb",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@init_pb",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void init_pb(void)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
+    },
+    "name": "init_pb",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_command",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LCD_command(unsigned char)",
     "location": {
       "column": "6",
       "line": "14",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
     },
-    "name": "init_pd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@init_pb",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void init_pb(void)",
-    "location": {
-      "column": "6",
-      "line": "15",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
-    },
-    "name": "init_pb",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@init_pb",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void init_pb(void)",
-    "location": {
-      "column": "6",
-      "line": "15",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
-    },
-    "name": "init_pb",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@init_timer",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void init_timer(void)",
-    "location": {
-      "column": "6",
-      "line": "16",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
-    },
-    "name": "init_timer",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@init_timer",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void init_timer(void)",
-    "location": {
-      "column": "6",
-      "line": "16",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
-    },
-    "name": "init_timer",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@default_delay",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void default_delay(void)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
-    },
-    "name": "default_delay",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@default_delay",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void default_delay(void)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
-    },
-    "name": "default_delay",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delay",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delay(void)",
-    "location": {
-      "column": "6",
-      "line": "18",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
-    },
-    "name": "delay",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delay",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delay(void)",
-    "location": {
-      "column": "6",
-      "line": "18",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
-    },
-    "name": "delay",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_command",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LCD_command(unsigned char)",
-    "location": {
-      "column": "6",
-      "line": "20",
-      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
-    },
     "name": "LCD_command",
     "origin": "user_include",
     "scope": null
@@ -93064,7 +92840,7 @@
     "display": "void LCD_command(unsigned char)",
     "location": {
       "column": "6",
-      "line": "20",
+      "line": "14",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
     },
     "name": "LCD_command",
@@ -93078,7 +92854,7 @@
     "display": "void LCD_data(unsigned char)",
     "location": {
       "column": "6",
-      "line": "21",
+      "line": "15",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
     },
     "name": "LCD_data",
@@ -93092,7 +92868,7 @@
     "display": "void LCD_data(unsigned char)",
     "location": {
       "column": "6",
-      "line": "21",
+      "line": "15",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
     },
     "name": "LCD_data",
@@ -93106,7 +92882,7 @@
     "display": "void LCD_start(void)",
     "location": {
       "column": "6",
-      "line": "22",
+      "line": "16",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
     },
     "name": "LCD_start",
@@ -93120,10 +92896,164 @@
     "display": "void LCD_start(void)",
     "location": {
       "column": "6",
-      "line": "22",
+      "line": "16",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_init.h"
     },
     "name": "LCD_start",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@23@macro@TIMER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.h"
+    },
+    "name": "TIMER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delayMs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delayMs(int)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.h"
+    },
+    "name": "delayMs",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delayMs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delayMs(int)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.h"
+    },
+    "name": "delayMs",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delayUs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delayUs(int)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.h"
+    },
+    "name": "delayUs",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delayUs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delayUs(int)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.h"
+    },
+    "name": "delayUs",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@init_timer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void init_timer(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.h"
+    },
+    "name": "init_timer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@init_timer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void init_timer(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.h"
+    },
+    "name": "init_timer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@default_delay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void default_delay(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.h"
+    },
+    "name": "default_delay",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@default_delay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void default_delay(void)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.h"
+    },
+    "name": "default_delay",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay(void)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.h"
+    },
+    "name": "delay",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay(void)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.h"
+    },
+    "name": "delay",
     "origin": "user_include",
     "scope": null
   },
@@ -93134,7 +93064,7 @@
     "display": "void lcd_test(void)",
     "location": {
       "column": "6",
-      "line": "4",
+      "line": "5",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
     },
     "name": "lcd_test",
@@ -93142,13 +93072,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@135@F@lcd_test@names",
+    "ID": "c:main.c@155@F@lcd_test@names",
     "What": "Variable",
     "defdec": "Def",
     "display": "names",
     "location": {
       "column": "8",
-      "line": "10",
+      "line": "11",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
     },
     "name": "names",
@@ -93156,13 +93086,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@198@F@lcd_test@count",
+    "ID": "c:main.c@218@F@lcd_test@count",
     "What": "Variable",
     "defdec": "Def",
     "display": "count",
     "location": {
       "column": "16",
-      "line": "11",
+      "line": "12",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
     },
     "name": "count",
@@ -93170,13 +93100,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@225@F@lcd_test@x",
+    "ID": "c:main.c@245@F@lcd_test@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "8",
-      "line": "12",
+      "line": "13",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
     },
     "name": "x",
@@ -93184,13 +93114,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@225@F@lcd_test@z",
+    "ID": "c:main.c@245@F@lcd_test@z",
     "What": "Variable",
     "defdec": "Dec",
     "display": "z",
     "location": {
       "column": "11",
-      "line": "12",
+      "line": "13",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
     },
     "name": "z",
@@ -93198,13 +93128,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@406@F@lcd_test@i",
+    "ID": "c:main.c@426@F@lcd_test@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "19",
-      "line": "23",
+      "line": "24",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
     },
     "name": "i",
@@ -93212,13 +93142,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@691@F@lcd_test@j",
+    "ID": "c:main.c@711@F@lcd_test@j",
     "What": "Variable",
     "defdec": "Def",
     "display": "j",
     "location": {
       "column": "17",
-      "line": "41",
+      "line": "42",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
     },
     "name": "j",
@@ -93232,10 +93162,80 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "53",
+      "line": "54",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
     },
     "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@init_timer",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void init_timer(void)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.c"
+    },
+    "name": "init_timer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@default_delay",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void default_delay(void)",
+    "location": {
+      "column": "6",
+      "line": "11",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.c"
+    },
+    "name": "default_delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delayMs",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void delayMs(int)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.c"
+    },
+    "name": "delayMs",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delayUs",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void delayUs(int)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.c"
+    },
+    "name": "delayUs",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void delay(void)",
+    "location": {
+      "column": "6",
+      "line": "28",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\timer.c"
+    },
+    "name": "delay",
     "origin": "project_file",
     "scope": null
   }

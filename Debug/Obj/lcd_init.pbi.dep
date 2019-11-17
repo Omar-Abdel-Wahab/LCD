@@ -1,3 +1,4 @@
 lcd_init.pbi: C:\Users\DELL\Documents\IAR\ Projects\LCDv1.2\tm4c123gh6pm.h \
+  C:\Users\DELL\Documents\IAR\ Projects\LCDv1.2\timer.h \
   C:\Users\DELL\Documents\IAR\ Projects\LCDv1.2\lcd_init.h \
   C:\Users\DELL\Documents\IAR\ Projects\LCDv1.2\lcd_init.c

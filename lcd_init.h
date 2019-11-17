@@ -8,14 +8,8 @@
 #define EN 0x08
 
 
-void delayMs(int x);
-void delayUs(int y);
 void init_pf();
-void init_pd();
 void init_pb();
-void init_timer();
-void default_delay();
-void delay();
 
 void LCD_command(unsigned char command);
 void LCD_data(unsigned char data);
