@@ -1,12 +1,14 @@
 #include "lcd_init.h"
 #include "timer.h"
+#include "lcd_keypad.h"
 #include "tm4c123gh6pm.h"
+#include "stdlib.h"
 
 void lcd_test()
 {
   init_pf();
   init_pb();
-  init_timer();
+  //init_timer();
   LCD_start();
   char names [4][8]={"Monica ","Kirolos ","Omar ","ElKady "};
   volatile int count =-1;
@@ -19,7 +21,7 @@ void lcd_test()
       count=0;
     }
      LCD_command(1);
-     default_delay();
+     systick_default_delay();
      
      volatile int i=0;
      while((names[count][i])!= ' ')
@@ -37,7 +39,7 @@ void lcd_test()
       count=3;
     }
      LCD_command(1);
-    default_delay();
+    systick_default_delay();
     
    volatile int j=0;
    while(names[count][j]!= ' ')
@@ -51,8 +53,23 @@ void lcd_test()
   }
 }
 
+void keypad_lcd_test()
+{
+  init_pf();
+  init_pb();
+  init_pc();
+  init_pe();
+  LCD_start();
+  char* str = keypad();
+  LCD_command(1);
+  int n = atoi(str); /* Convert string to integer */
+  iterate(n);
+  
+}
+
 int main()
 { 
-  lcd_test();
+  //lcd_test();
+  keypad_lcd_test();
   return 0;
 } 

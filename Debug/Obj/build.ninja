@@ -21,9 +21,10 @@ rule browsedata
 
 #Build steps
 build lcd_init.pbi : index lcd_init.xcl
+build lcd_keypad.pbi : index lcd_keypad.xcl
 build main.pbi : index main.xcl
 build timer.pbi : index timer.xcl
-build lcdv1.2.pbd : link lcd_init.pbi main.pbi timer.pbi
+build lcdv1.2.pbd : link lcd_init.pbi lcd_keypad.pbi main.pbi timer.pbi
 build lcdv1.2.pbw : browsedata lcdv1.2.pbd
 
 

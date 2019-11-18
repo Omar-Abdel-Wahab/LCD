@@ -36,12 +36,12 @@ void LCD_command(unsigned char command)
     GPIO_PORTF_DATA_R &=  ~(EN | RS);     	/* RS = 0, R/W = 0 */
     GPIO_PORTB_DATA_R = command;
     GPIO_PORTF_DATA_R |= EN;    	/* pulse E */
-    delayUs(1);		/* Enable pulse Width */
+    systick_delayUs(1);		/* Enable pulse Width */
     GPIO_PORTF_DATA_R &= ~(EN | RS);
     if (command < 4)
-        delayMs(2);         	/* command 1 and 2 needs up to 1.64ms */
+        systick_delayMs(2);         	/* command 1 and 2 needs up to 1.64ms */
     else
-        delayUs(40);        /* all others 40 us */
+        systick_delayUs(40);        /* all others 40 us */
 }
 
 void LCD_data(unsigned char data)
@@ -49,20 +49,20 @@ void LCD_data(unsigned char data)
     GPIO_PORTF_DATA_R |= RS;    /* RS = 1, R/W = 0 */
     GPIO_PORTB_DATA_R = data;
     GPIO_PORTF_DATA_R |= (EN | RS);   /* pulse E */
-    delayUs(1);
+    systick_delayUs(1);
     GPIO_PORTF_DATA_R &= ~(EN | RS); 
-    delayUs(40);
+    systick_delayUs(40);
 }
 
 void LCD_start()
 {
-    delayMs(20);            /* initialization sequence */// Wait >15 ms after power is applied
+    systick_delayMs(20);            /* initialization sequence */// Wait >15 ms after power is applied
     LCD_command(0x30);		// command 0x30 = Wake up
-    delayMs(5);				// must wait 5ms, busy flag not available
+    systick_delayMs(5);				// must wait 5ms, busy flag not available
     LCD_command(0x30);		// command 0x30 = Wake up #2
-    delayUs(100);			// must wait 100us, busy flag not available
+    systick_delayUs(100);			// must wait 100us, busy flag not available
     LCD_command(0x30);		// command 0x30 = Wake up #3
-    delayUs(100);			// must wait 100us, busy flag not available
+    systick_delayUs(100);			// must wait 100us, busy flag not available
   // Prepare LCD Operation and Function  
     LCD_command(0x38);      /* set 8-bit data, 2-line, 5x7 font */
     LCD_command(0x06);      /* move cursor right */

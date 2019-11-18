@@ -2110,6 +2110,12 @@
         <name>$PROJ_DIR$\lcd_init.h</name>
     </file>
     <file>
+        <name>$PROJ_DIR$\lcd_keypad.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\lcd_keypad.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\main.c</name>
     </file>
     <file>
