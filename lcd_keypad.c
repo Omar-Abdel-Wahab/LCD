@@ -18,7 +18,7 @@ char* keypad(){
   bool while_stay = true; // Loop condition
   int column = 0;
   char x; // Digit to be sent to LCD
-  char* str = (char*) malloc(sizeof(char) * 3); /* Save string of digits (like 100) to be iterated over, as local variables are deleted upon
+  char* str = (char*) malloc(sizeof(char) * 3); /* Save string of digits (like 90) to be iterated over, as local variables are deleted upon
   function end */
   unsigned int column_value = 0x00;
   GPIO_PORTE_DATA_R &= 0xF0;
@@ -32,28 +32,28 @@ char* keypad(){
       column_value = GPIO_PORTC_DATA_R;
       if((GPIO_PORTC_DATA_R &= C_0)==0){
       column = 0;
-      systick_delayMs(80);
+      systick_delayMs(150);
       }
       else if((GPIO_PORTC_DATA_R &= C_1)==0){
       column = 1;
-      systick_delayMs(80);
+      systick_delayMs(150);
       }
       else if((GPIO_PORTC_DATA_R &= C_2)==0){
       column = 2;
-      systick_delayMs(80);
+      systick_delayMs(150);
       }
        else if((GPIO_PORTC_DATA_R &= C_3)==0){
       column = 3;
-      systick_delayMs(80);
+      systick_delayMs(150);
       }
      // function part to indicate which row was pressed 
   
       for(int j = 0; j < 4; j++){
       GPIO_PORTE_DATA_R |= 0x0F;
       GPIO_PORTE_DATA_R &= ~(0x01<<j);
-      systick_delayMs(80);
+      systick_delayMs(150);
          if(GPIO_PORTC_DATA_R == column_value){
-           systick_delayMs(80);
+           systick_delayMs(150);
            x = arr[j][column];
            if(x == ' '){ /* If x == space, exit loop (end of digits) */
            while_stay = false;
@@ -74,15 +74,21 @@ char* keypad(){
 }
 
 void iterate(int n){
-  char* str;
-  int length;
+  char str[3] = "";
+  char length;
+  char c;
   for(int i = n; i > -1; i--){
     sprintf(str, "%d", i); /* Convert integer to string */
     length = strlen(str);
-    for(int j = 0; j < length; j++){
-        LCD_data(*(str+j)); /* Send the digits to LCD*/
+    for(char j = 0; j < length; j++){
+        c = *(str+j);
+        if(c == '\0'){
+        }
+        else{
+        LCD_data(c); /* Send the digits to LCD*/
+        }
     }
-    //systick_delayMs(250);
+    systick_delayMs(1000);
     LCD_command(1);
   }
 

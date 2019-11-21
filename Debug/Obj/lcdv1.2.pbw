@@ -95771,7 +95771,7 @@
     "scope": null
   },
   {
-    "ID": "c:lcd_keypad.c@637@F@keypad@column_value",
+    "ID": "c:lcd_keypad.c@636@F@keypad@column_value",
     "What": "Variable",
     "defdec": "Def",
     "display": "column_value",
@@ -95785,7 +95785,7 @@
     "scope": null
   },
   {
-    "ID": "c:lcd_keypad.c@1380@F@keypad@j",
+    "ID": "c:lcd_keypad.c@1383@F@keypad@j",
     "What": "Variable",
     "defdec": "Def",
     "display": "j",
@@ -95813,12 +95813,12 @@
     "scope": null
   },
   {
-    "ID": "c:lcd_keypad.c@2111@F@iterate@str",
+    "ID": "c:lcd_keypad.c@2116@F@iterate@str",
     "What": "Variable",
     "defdec": "Def",
     "display": "str",
     "location": {
-      "column": "9",
+      "column": "8",
       "line": "77",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_keypad.c"
     },
@@ -95827,12 +95827,12 @@
     "scope": null
   },
   {
-    "ID": "c:lcd_keypad.c@2125@F@iterate@length",
+    "ID": "c:lcd_keypad.c@2137@F@iterate@length",
     "What": "Variable",
     "defdec": "Def",
     "display": "length",
     "location": {
-      "column": "7",
+      "column": "8",
       "line": "78",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_keypad.c"
     },
@@ -95841,13 +95841,27 @@
     "scope": null
   },
   {
-    "ID": "c:lcd_keypad.c@2144@F@iterate@i",
+    "ID": "c:lcd_keypad.c@2153@F@iterate@c",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "c",
+    "location": {
+      "column": "8",
+      "line": "79",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_keypad.c"
+    },
+    "name": "c",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:lcd_keypad.c@2168@F@iterate@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "79",
+      "line": "80",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_keypad.c"
     },
     "name": "i",
@@ -95855,13 +95869,13 @@
     "scope": null
   },
   {
-    "ID": "c:lcd_keypad.c@2265@F@iterate@j",
+    "ID": "c:lcd_keypad.c@2289@F@iterate@j",
     "What": "Variable",
     "defdec": "Def",
     "display": "j",
     "location": {
-      "column": "13",
-      "line": "82",
+      "column": "14",
+      "line": "83",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_keypad.c"
     },
     "name": "j",
@@ -95875,7 +95889,7 @@
     "display": "void init_pc(void)",
     "location": {
       "column": "6",
-      "line": "91",
+      "line": "97",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_keypad.c"
     },
     "name": "init_pc",
@@ -95889,7 +95903,7 @@
     "display": "void init_pe(void)",
     "location": {
       "column": "6",
-      "line": "100",
+      "line": "106",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\lcd_keypad.c"
     },
     "name": "init_pe",
@@ -98067,13 +98081,97 @@
     "scope": null
   },
   {
+    "ID": "c:@F@welcome",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void welcome(void)",
+    "location": {
+      "column": "6",
+      "line": "56",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
+    },
+    "name": "welcome",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@935@F@welcome@cs",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "cs",
+    "location": {
+      "column": "8",
+      "line": "57",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
+    },
+    "name": "cs",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@967@F@welcome@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "13",
+      "line": "58",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@repeat",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void repeat(void)",
+    "location": {
+      "column": "6",
+      "line": "64",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
+    },
+    "name": "repeat",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1052@F@repeat@cs",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "cs",
+    "location": {
+      "column": "10",
+      "line": "65",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
+    },
+    "name": "cs",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1086@F@repeat@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "13",
+      "line": "66",
+      "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@keypad_lcd_test",
     "What": "Function",
     "defdec": "Def",
     "display": "void keypad_lcd_test(void)",
     "location": {
       "column": "6",
-      "line": "56",
+      "line": "71",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
     },
     "name": "keypad_lcd_test",
@@ -98081,13 +98179,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1017@F@keypad_lcd_test@str",
+    "ID": "c:main.c@1264@F@keypad_lcd_test@str",
     "What": "Variable",
     "defdec": "Def",
     "display": "str",
     "location": {
       "column": "9",
-      "line": "63",
+      "line": "79",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
     },
     "name": "str",
@@ -98095,13 +98193,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1061@F@keypad_lcd_test@n",
+    "ID": "c:main.c@1316@F@keypad_lcd_test@n",
     "What": "Variable",
     "defdec": "Def",
     "display": "n",
     "location": {
       "column": "7",
-      "line": "65",
+      "line": "82",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
     },
     "name": "n",
@@ -98115,7 +98213,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "70",
+      "line": "86",
       "path": "C:\\Users\\DELL\\Documents\\IAR Projects\\LCDv1.2\\main.c"
     },
     "name": "main",
