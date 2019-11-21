@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.2.214/W32 for ARM                  21/Nov/2019  15:06:04
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  21/Nov/2019  22:28:42
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
@@ -8,7 +8,7 @@
 #    Map file     =
 #        C:\Users\DELL\Documents\IAR Projects\LCDv1.2\Debug\List\lcdv1.2.map
 #    Command line =
-#        -f C:\Users\DELL\AppData\Local\Temp\EWA8C2.tmp
+#        -f C:\Users\DELL\AppData\Local\Temp\EWE554.tmp
 #        ("C:\Users\DELL\Documents\IAR Projects\LCDv1.2\Debug\Obj\lcd_init.o"
 #        "C:\Users\DELL\Documents\IAR Projects\LCDv1.2\Debug\Obj\lcd_keypad.o"
 #        "C:\Users\DELL\Documents\IAR Projects\LCDv1.2\Debug\Obj\main.o"
@@ -57,39 +57,39 @@ define block HEAP with size = 8K, alignment = 8 { };
   .intvec          ro code          0x0    0x40  vector_table_M.o [4]
                                  - 0x40    0x40
 
-"P1":                                     0x9ec
-  .text            ro code         0x40   0x200  lcd_keypad.o [1]
-  .text            ro code        0x240    0x56  ABImemcpy_unaligned.o [4]
-  .text            ro code        0x296    0x3a  zero_init3.o [4]
-  .text            ro code        0x2d0    0x48  no_free_heap0.o [2]
-  .text            ro code        0x318   0x146  lcd_init.o [1]
-  .text            ro code        0x45e    0x1e  strcat.o [2]
-  .text            ro code        0x47c    0x44  timer.o [1]
-  .text            ro code        0x4c0     0x6  ABImemclr.o [4]
-  .text            ro code        0x4c6     0xa  xsprout.o [2]
-  .text            ro code        0x4d0    0x40  sprintf.o [2]
-  .text            ro code        0x510    0x36  strlen.o [4]
-  .text            ro code        0x546     0x2  vector_table_M.o [4]
-  .text            ro code        0x548    0x2c  xgetmemchunk.o [2]
-  .text            ro code        0x574    0x5e  ABImemset.o [4]
-  .text            ro code        0x5d2   0x134  xprintftiny.o [2]
-  .text            ro code        0x708   0x150  iar_Stoulx.o [2]
-  .text            ro code        0x858    0x58  memchr.o [4]
-  .text            ro code        0x8b0    0x64  main.o [1]
-  .rodata          const          0x914    0x50  iar_Stoulx.o [2]
-  .text            ro code        0x964    0x28  data_init.o [4]
-  .text            ro code        0x98c    0x22  fpinit_M.o [3]
-  .iar.init_table  const          0x9b0    0x10  - Linker created -
-  .text            ro code        0x9c0    0x1e  cmain.o [4]
-  .text            ro code        0x9de     0x4  low_level_init.o [2]
-  .text            ro code        0x9e2     0x4  exit.o [2]
-  .text            ro code        0x9e8     0xa  cexit.o [4]
-  .text            ro code        0x9f4    0x14  exit.o [5]
-  .rodata          const          0xa08    0x10  lcd_keypad.o [1]
-  .text            ro code        0xa18     0xc  cstartup_M.o [4]
-  .rodata          const          0xa24     0x8  main.o [1]
-  .rodata          const          0xa2c     0x0  zero_init3.o [4]
-                                - 0xa2c   0x9ec
+"P1":                                     0xa10
+  .text            ro code         0x40   0x228  lcd_keypad.o [1]
+  .text            ro code        0x268    0x56  ABImemcpy_unaligned.o [4]
+  .text            ro code        0x2be    0x3a  zero_init3.o [4]
+  .text            ro code        0x2f8    0x48  no_free_heap0.o [2]
+  .text            ro code        0x340     0x6  ABImemclr.o [4]
+  .text            ro code        0x346     0xa  xsprout.o [2]
+  .text            ro code        0x350   0x146  lcd_init.o [1]
+  .text            ro code        0x496     0x2  vector_table_M.o [4]
+  .text            ro code        0x498    0x44  timer.o [1]
+  .text            ro code        0x4dc    0x18  strcpy.o [4]
+  .text            ro code        0x4f4    0x40  sprintf.o [2]
+  .text            ro code        0x534    0x36  strlen.o [4]
+  .text            ro code        0x56c    0x2c  xgetmemchunk.o [2]
+  .text            ro code        0x598    0x5e  ABImemset.o [4]
+  .text            ro code        0x5f6   0x134  xprintftiny.o [2]
+  .text            ro code        0x72c   0x150  iar_Stoulx.o [2]
+  .text            ro code        0x87c    0x58  memchr.o [4]
+  .text            ro code        0x8d4    0x64  main.o [1]
+  .rodata          const          0x938    0x50  iar_Stoulx.o [2]
+  .text            ro code        0x988    0x28  data_init.o [4]
+  .text            ro code        0x9b0    0x22  fpinit_M.o [3]
+  .iar.init_table  const          0x9d4    0x10  - Linker created -
+  .text            ro code        0x9e4    0x1e  cmain.o [4]
+  .text            ro code        0xa02     0x4  low_level_init.o [2]
+  .text            ro code        0xa06     0x4  exit.o [2]
+  .text            ro code        0xa0c     0xa  cexit.o [4]
+  .text            ro code        0xa18    0x14  exit.o [5]
+  .rodata          const          0xa2c    0x10  lcd_keypad.o [1]
+  .text            ro code        0xa3c     0xc  cstartup_M.o [4]
+  .rodata          const          0xa48     0x8  main.o [1]
+  .rodata          const          0xa50     0x0  zero_init3.o [4]
+                                - 0xa50   0xa10
 
 "P2", part 1 of 2:                          0x8
   .bss             zero     0x2000'0000     0x4  no_free_heap0.o [2]
@@ -107,7 +107,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0xa2c     0x3'ffff  0x3'f5d4
+        0xa50     0x3'ffff  0x3'f5b0
   0x2000'3008  0x2000'7fff    0x4ff8
 
 
@@ -135,11 +135,11 @@ command line/config:
 
 C:\Users\DELL\Documents\IAR Projects\LCDv1.2\Debug\Obj: [1]
     lcd_init.o                 326
-    lcd_keypad.o               512       16
+    lcd_keypad.o               552       16
     main.o                     100        8
     timer.o                     68
     ------------------------------------------------
-    Total:                   1'006       24
+    Total:                   1'046       24
 
 dl7M_tln.a: [2]
     exit.o                       4
@@ -147,12 +147,11 @@ dl7M_tln.a: [2]
     low_level_init.o             4
     no_free_heap0.o             72                 4
     sprintf.o                   64
-    strcat.o                    30
     xgetmemchunk.o              44                 4
     xprintftiny.o              308
     xsprout.o                   10
     ------------------------------------------------
-    Total:                     872       80        8
+    Total:                     842       80        8
 
 m7M_tls.a: [3]
     fpinit_M.o                  34
@@ -168,21 +167,22 @@ rt7M_tl.a: [4]
     cstartup_M.o                12
     data_init.o                 40
     memchr.o                    88
+    strcpy.o                    24
     strlen.o                    54
     vector_table_M.o            66
     zero_init3.o                58
     ------------------------------------------------
-    Total:                     544
+    Total:                     568
 
 shb_l.a: [5]
     exit.o                      20
     ------------------------------------------------
     Total:                      20
 
-    Gaps                         6        2
+    Gaps                         8        2
     Linker created                       16   12'288
 ----------------------------------------------------
-    Grand Total:             2'482      122   12'296
+    Grand Total:             2'518      122   12'296
 
 
 *******************************************************************************
@@ -191,65 +191,65 @@ shb_l.a: [5]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base         0x9b0          --   Gb  - Linker created -
-.iar.init_table$$Limit        0x9c0          --   Gb  - Linker created -
-?main                         0x9c1         Code  Gb  cmain.o [4]
+.iar.init_table$$Base         0x9d4          --   Gb  - Linker created -
+.iar.init_table$$Limit        0x9e4          --   Gb  - Linker created -
+?main                         0x9e5         Code  Gb  cmain.o [4]
 CSTACK$$Base            0x2000'0008          --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'1008          --   Gb  - Linker created -
 HEAP$$Base              0x2000'1008          --   Gb  - Linker created -
 HEAP$$Limit             0x2000'3008          --   Gb  - Linker created -
-LCD_command                   0x37b   0x42  Code  Gb  lcd_init.o [1]
-LCD_data                      0x3bd   0x30  Code  Gb  lcd_init.o [1]
-LCD_start                     0x419   0x46  Code  Gb  lcd_init.o [1]
-Region$$Table$$Base           0x9b0          --   Gb  - Linker created -
-Region$$Table$$Limit          0x9c0          --   Gb  - Linker created -
-_PrintfTiny                   0x5eb  0x11c  Code  Gb  xprintftiny.o [2]
-_SProut                       0x4c7    0xa  Code  Gb  xsprout.o [2]
-__aeabi_memclr                0x4c1         Code  Gb  ABImemclr.o [4]
-__cmain                       0x9c1         Code  Gb  cmain.o [4]
-__data_GetMemChunk            0x549   0x2c  Code  Gb  xgetmemchunk.o [2]
+LCD_command                   0x3b3   0x42  Code  Gb  lcd_init.o [1]
+LCD_data                      0x3f5   0x30  Code  Gb  lcd_init.o [1]
+LCD_start                     0x451   0x46  Code  Gb  lcd_init.o [1]
+Region$$Table$$Base           0x9d4          --   Gb  - Linker created -
+Region$$Table$$Limit          0x9e4          --   Gb  - Linker created -
+_PrintfTiny                   0x60f  0x11c  Code  Gb  xprintftiny.o [2]
+_SProut                       0x347    0xa  Code  Gb  xsprout.o [2]
+__aeabi_memclr                0x341         Code  Gb  ABImemclr.o [4]
+__cmain                       0x9e5         Code  Gb  cmain.o [4]
+__data_GetMemChunk            0x56d   0x2c  Code  Gb  xgetmemchunk.o [2]
 __data_GetMemChunk::start
                         0x2000'0004    0x4  Data  Lc  xgetmemchunk.o [2]
-__exit                        0x9f5   0x14  Code  Gb  exit.o [5]
-__iar_Memchr                  0x859         Code  Gb  memchr.o [4]
-__iar_Memset_word             0x575         Code  Gb  ABImemset.o [4]
-__iar_Stoulx                  0x709  0x13e  Code  Gb  iar_Stoulx.o [2]
-__iar_data_init3              0x965   0x28  Code  Gb  data_init.o [4]
-__iar_init_vfp                0x98d         Code  Gb  fpinit_M.o [3]
-__iar_program_start           0xa19         Code  Gb  cstartup_M.o [4]
+__exit                        0xa19   0x14  Code  Gb  exit.o [5]
+__iar_Memchr                  0x87d         Code  Gb  memchr.o [4]
+__iar_Memset_word             0x599         Code  Gb  ABImemset.o [4]
+__iar_Stoulx                  0x72d  0x13e  Code  Gb  iar_Stoulx.o [2]
+__iar_data_init3              0x989   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp                0x9b1         Code  Gb  fpinit_M.o [3]
+__iar_program_start           0xa3d         Code  Gb  cstartup_M.o [4]
 __iar_unaligned_memcpy4
-                              0x241         Code  Gb  ABImemcpy_unaligned.o [4]
+                              0x269         Code  Gb  ABImemcpy_unaligned.o [4]
 __iar_unaligned_memcpy8
-                              0x241         Code  Gb  ABImemcpy_unaligned.o [4]
-__iar_zero_init3              0x297   0x3a  Code  Gb  zero_init3.o [4]
-__low_level_init              0x9df    0x4  Code  Gb  low_level_init.o [2]
-__no_free_malloc              0x2d1   0x44  Code  Gb  no_free_heap0.o [2]
+                              0x269         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_zero_init3              0x2bf   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init              0xa03    0x4  Code  Gb  low_level_init.o [2]
+__no_free_malloc              0x2f9   0x44  Code  Gb  no_free_heap0.o [2]
 __vector_table                  0x0         Data  Gb  vector_table_M.o [4]
-_call_main                    0x9cd         Code  Gb  cmain.o [4]
-_exit                         0x9e9         Code  Gb  cexit.o [4]
-_main                         0x9db         Code  Gb  cmain.o [4]
-atoi                          0x84d    0x2  Code  Gb  iar_Stoulx.o [2]
-digits                        0x93c   0x28  Data  Lc  iar_Stoulx.o [2]
-exit                          0x9e3    0x4  Code  Gb  exit.o [2]
-init_pb                       0x35b   0x20  Code  Gb  lcd_init.o [1]
-init_pc                       0x1c3   0x28  Code  Gb  lcd_keypad.o [1]
-init_pe                       0x1eb   0x2a  Code  Gb  lcd_keypad.o [1]
-init_pf                       0x319   0x42  Code  Gb  lcd_init.o [1]
-iterate                       0x165   0x5e  Code  Gb  lcd_keypad.o [1]
-keypad                         0x41  0x124  Code  Gb  lcd_keypad.o [1]
-keypad_lcd_test               0x8d9   0x32  Code  Gb  main.o [1]
-main                          0x90b    0xa  Code  Gb  main.o [1]
-memchr                        0x859         Code  Gb  memchr.o [4]
-ndigs                         0x914   0x28  Data  Lc  iar_Stoulx.o [2]
-out                           0x5d3   0x18  Code  Lc  xprintftiny.o [2]
+_call_main                    0x9f1         Code  Gb  cmain.o [4]
+_exit                         0xa0d         Code  Gb  cexit.o [4]
+_main                         0x9ff         Code  Gb  cmain.o [4]
+atoi                          0x871    0x2  Code  Gb  iar_Stoulx.o [2]
+digits                        0x960   0x28  Data  Lc  iar_Stoulx.o [2]
+exit                          0xa07    0x4  Code  Gb  exit.o [2]
+init_pb                       0x393   0x20  Code  Gb  lcd_init.o [1]
+init_pc                       0x1eb   0x28  Code  Gb  lcd_keypad.o [1]
+init_pe                       0x213   0x2a  Code  Gb  lcd_keypad.o [1]
+init_pf                       0x351   0x42  Code  Gb  lcd_init.o [1]
+iterate                       0x18d   0x5e  Code  Gb  lcd_keypad.o [1]
+keypad                         0x41  0x14c  Code  Gb  lcd_keypad.o [1]
+keypad_lcd_test               0x8fd   0x32  Code  Gb  main.o [1]
+main                          0x92f    0xa  Code  Gb  main.o [1]
+memchr                        0x87d         Code  Gb  memchr.o [4]
+ndigs                         0x938   0x28  Data  Lc  iar_Stoulx.o [2]
+out                           0x5f7   0x18  Code  Lc  xprintftiny.o [2]
 qs                      0x2000'0000    0x4  Data  Lc  no_free_heap0.o [2]
-sprintf                       0x4d1   0x40  Code  Gb  sprintf.o [2]
-strcat                        0x45f   0x1e  Code  Gb  strcat.o [2]
-strlen                        0x511         Code  Gb  strlen.o [4]
-systick_delay                 0x4a1   0x16  Code  Gb  timer.o [1]
-systick_delayMs               0x47d   0x14  Code  Gb  timer.o [1]
-systick_delayUs               0x491   0x10  Code  Gb  timer.o [1]
-welcome                       0x8b1   0x22  Code  Gb  main.o [1]
+sprintf                       0x4f5   0x40  Code  Gb  sprintf.o [2]
+strcpy                        0x4dd         Code  Gb  strcpy.o [4]
+strlen                        0x535         Code  Gb  strlen.o [4]
+systick_delay                 0x4bd   0x16  Code  Gb  timer.o [1]
+systick_delayMs               0x499   0x14  Code  Gb  timer.o [1]
+systick_delayUs               0x4ad   0x10  Code  Gb  timer.o [1]
+welcome                       0x8d5   0x22  Code  Gb  main.o [1]
 
 
 [1] = C:\Users\DELL\Documents\IAR Projects\LCDv1.2\Debug\Obj
@@ -258,7 +258,7 @@ welcome                       0x8b1   0x22  Code  Gb  main.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-   2'482 bytes of readonly  code memory
+   2'518 bytes of readonly  code memory
      122 bytes of readonly  data memory
   12'296 bytes of readwrite data memory
 

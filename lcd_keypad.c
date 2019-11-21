@@ -20,6 +20,8 @@ char* keypad(){
   char x; // Digit to be sent to LCD
   char* str = (char*) malloc(sizeof(char) * 3); /* Save string of digits (like 90) to be iterated over, as local variables are deleted upon
   function end */
+  char str2[3] = "";
+  int count = 0;
   unsigned int column_value = 0x00;
   GPIO_PORTE_DATA_R &= 0xF0;
   GPIO_PORTC_DATA_R |=0xF0; 
@@ -60,7 +62,8 @@ char* keypad(){
            }
            else{
            LCD_data(x); /* Send digit to LCD */
-           strcat(str, &x); /* Add digit to string to know the whole number in the end and iterate over it*/
+           str2[count] = x; /* Add digit to string to know the whole number in the end and iterate over it*/
+           count++;
            }
         break;
         }
@@ -70,6 +73,7 @@ char* keypad(){
   GPIO_PORTE_DATA_R &= 0xF0;
   GPIO_PORTC_DATA_R |= 0xF0;
   }
+  strcpy(str, str2);
   return str;
 }
 

@@ -59,15 +59,7 @@ void welcome(){
     LCD_data(cs[i]);
   }  
     
-}
-
-void repeat(){
-    char cs[] = "1:Repeat ";
-    for(int i = 0; i < 9; i++){
-    LCD_data(cs[i]);
-  }  
-    
-}
+}    
 void keypad_lcd_test()
 {
   init_pf();
@@ -76,8 +68,7 @@ void keypad_lcd_test()
   init_pe();
   LCD_start();
   welcome();
-  char* str;
-  str = keypad();
+  char* str = keypad();
   LCD_command(1);
   int n = atoi(str); /* Convert string to integer */
   iterate(n);
