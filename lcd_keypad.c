@@ -98,6 +98,59 @@ void iterate(int n){
 
 }
 
+void iterate_stopwatch(){
+  char str[3] = "";
+  char str2[3] = "";
+  char length;
+  char minutes_length;
+  char c;
+  int x = -1,min = 0;
+    while(1){
+    if((GPIO_PORTF_DATA_R & sw1) == 0){
+    for(int i = x;i< 60; i++){
+    LCD_command(1);
+    sprintf(str, "%d", i); // Convert integer to string
+    length = strlen(str);
+    sprintf(str2, "%d", min);
+    minutes_length = strlen(str2);
+    for(char j = 0; j < minutes_length; j++){
+        c = *(str2+j);
+        if(c == '\0'){
+        }
+        else{
+        LCD_data(c); // Send the digits to LCD
+        }
+    }
+    LCD_data(':');
+    for(char j = 0; j < length; j++){
+        c = *(str+j);
+        if(c == '\0'){
+        }
+        else{
+        LCD_data(c); // Send the digits to LCD
+        }
+    }
+    if((GPIO_PORTF_DATA_R & sw2) == 0){
+      x=i;
+      break;
+    }
+    else{
+    delayMs(1000);
+    if(i == 59){
+    i = -1;
+    x = -1;
+    min++;
+    }
+  }
+  }
+}
+
+     
+}
+    
+}
+
+
 void init_pc(){
 //portC input (columns)
 SYSCTL_RCGCGPIO_R |=SYSCTL_RCGCGPIO_R2;   // enable clock for portc

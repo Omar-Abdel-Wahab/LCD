@@ -67,11 +67,14 @@ void keypad_lcd_test()
   init_pc();
   init_pe();
   LCD_start();
-  welcome();
-  char* str = keypad();
+  init_timer();
   LCD_command(1);
-  int n = atoi(str); /* Convert string to integer */
-  iterate(n);
+  iterate_stopwatch();
+  //welcome();
+  //char* str = keypad();
+  //LCD_command(1);
+  //int n = atoi(str); /* Convert string to integer */
+  //iterate(n);
 }
 
 int main()

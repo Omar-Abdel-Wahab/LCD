@@ -12,5 +12,6 @@ char* keypad();
 void init_pc();
 void init_pe();
 void iterate(int n);
+void iterate_stopwatch();
 
 #endif
